@@ -13,7 +13,7 @@
       <p id="description">Thank you for taking the time to help us improve the platform</p>
     </header>
     <form id="survey-form">
-      <fieldset>
+      <fieldset id="top-fieldset">
         <label id="name-label" for="name">Name</label>
         <input id="name" type="text" placeholder="Enter your name" required />
       </fieldset>
@@ -41,7 +41,7 @@
         <label class="font-normal"><input type="radio" name="recommend" value="definitely" checked />
           Definitely</label>
         <label class="font-normal"><input type="radio" name="recommend" value="maybe" /> Maybe</label>
-        <label class="font-normal"><input type="radio" name="recommend" value="notSure" /> Not sure</label>
+        <label class="font-normal fieldset-last-el"><input type="radio" name="recommend" value="notSure" /> Not sure</label>
       </fieldset>
       <fieldset>
         <label>What is your favorite feature of freeCodeCamp?</label>
@@ -70,7 +70,7 @@
         <label class="font-normal"><input type="checkbox" name="improved" value="meetups" /> City Meetups</label>
         <label class="font-normal"><input type="checkbox" name="improved" value="wiki" /> Wiki</label>
         <label class="font-normal"><input type="checkbox" name="improved" value="forum" /> Forum</label>
-        <label class="font-normal"><input type="checkbox" name="improved" value="additionalCourses" /> Additional
+        <label class="font-normal fieldset-last-el"><input type="checkbox" name="improved" value="additionalCourses" /> Additional
           Courses</label>
       </fieldset>
       <fieldset>
